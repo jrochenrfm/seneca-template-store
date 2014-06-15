@@ -46,7 +46,7 @@ The devDependencies attribute and peerDependencies attributes are already comple
 
  The test module uses the [seneca store test](https://github.com/rjrodger/seneca-store-test). The test module is set-up so you can easily add extra tests for your specific datastore.
 
- The tests will fail but you are ready to start implementing the datastore interface.
+ The tests will fail but you are ready to start implementing the [datastore interface](https://github.com/rjrodger/seneca-mongo-store#usage).
 
 
 ###Utility functions
