@@ -48,12 +48,10 @@ The devDependencies attribute and peerDependencies attributes are already comple
 
  The tests will fail but you are ready to start implementing your datastore plug-in.
 
- ###Utility functions
+###Utility functions
 
-The underlying database needs to have a name for the table or collection associated with the database. The convention is to join the base and name with an underscore, '_'. The createCollectionName function takes a seneca entity and creates the underlying database table or collection name.
+The underlying database needs to have a name for the table or collection associated with the database. The convention is to join the base and name with an underscore, '_'. The createCollectionName function in the plug-in module takes a seneca entity and creates the underlying database table or collection name.
 
 ``` javascript
-function createCollectionName(entity){
-  
-}
+function createCollectionName(entity)
 ```
