@@ -10,9 +10,9 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
  Now re-name the seneca-template-store folder using the datastore plug-in convention. All seneca datastore plug-ins are named seneca-<databasename>-store, so seneca-mongo-store for MongoDB, seneca-mysql-store for MySQL, etc.
 
- Re-name lib/data-store.js to lib/<databasename>-store.js
+ Re-name `lib/data-store.js` to `ib/<databasename>-store.js`
 
- Re-name test/data-store.test.js to lib/<databasename>-store.test.js
+ Re-name `test/data-store.test.js` to `lib/<databasename>-store.test.js`
 
 ###package.json
 
@@ -22,14 +22,13 @@ Fill in the package.json file with your project information:
 - version
 - description
 - main
-- scripts
 
 
-The main and script attributes are required so that the test framework will run.
+The main attribute is required so that the test framework will run.
 
 ###Install the test framework and seneca
 
-The devDependencies attribute and peerDependencies attribute are already completed so you can just run:
+The devDependencies attribute and peerDependencies attributes are already completed so you can just run:
 
  ``` *.bash
  npm install
