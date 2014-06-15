@@ -19,14 +19,19 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 Fill in the package.json file with your project information:
 
 -name
+
 -version
+
 -description
+
 -main
+
 -scripts
+
 
 The main and script attributes are required so that the test framework will run.
 
-###Install the test framework ans seneca
+###Install the test framework and seneca
 
 The devDependencies attribute and peerDependencies attribute are already completed so you can just run:
 
