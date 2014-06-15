@@ -10,7 +10,7 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
  Now re-name the seneca-template-store folder using the datastore plug-in convention. All seneca datastore plug-ins are named seneca-\<databasename\>-store, so seneca-mongo-store for MongoDB, seneca-mysql-store for MySQL, etc.
 
- Re-name the plu-in module:
+ Re-name the plug-in module:
 
  `lib/data-store.js` to `lib/<databasename>-store.js`
 
@@ -48,7 +48,7 @@ The devDependencies attribute and peerDependencies attributes are already comple
 
  The tests will fail but you are ready to start implementing your datastore plug-in.
 
- ###Utility functions
+ ### Utility functions
 
 The underlying database needs to have a name for the table or collection associated with the database. The convention is to join the base and name with an underscore, '_'. The createCollectionName function takes a seneca entity and creates the underlying database table or collection name.
 
