@@ -4,6 +4,6 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
 ###Set-up
 
- '''*.bash
+ ```*.bash
  git clone https://github.com/jrochenrfm/seneca-template-store.git
- ,,,
+ ```
