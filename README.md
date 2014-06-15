@@ -17,7 +17,7 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
  Re-name the test module:
 
- `test/data-store.test.js` to `lib/<databasename>-store.test.js`
+ `test/data-store.test.js` to `test/<databasename>-store.test.js`
 
 ###package.json
 
