@@ -54,6 +54,6 @@ The underlying database needs to have a name for the table or collection associa
 
 ``` javascript
 function createCollectionName(entity){
-  .............
+  
 }
 ```
