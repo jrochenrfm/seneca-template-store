@@ -6,6 +6,8 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
  ``` *.bash
  git clone https://github.com/jrochenrfm/seneca-template-store.git
+
+ rm -rf .git
  ```
 
  Now re-name the seneca-template-store folder using the datastore plug-in convention. All seneca datastore plug-ins are named seneca-\<databasename\>-store, so seneca-mongo-store for MongoDB, seneca-mysql-store for MySQL, etc.
