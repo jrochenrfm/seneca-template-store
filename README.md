@@ -8,7 +8,7 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
  git clone https://github.com/jrochenrfm/seneca-template-store.git
  ```
 
- Now re-name the seneca-template-store folder using the datastore plug-in convention. All seneca datastore plug-ins are named seneca-<databasename>-store, so seneca-mongo-store for MongoDB, seneca-mysql-store for MySQL, etc.
+ Now re-name the seneca-template-store folder using the datastore plug-in convention. All seneca datastore plug-ins are named seneca-\<databasename\>-store, so seneca-mongo-store for MongoDB, seneca-mysql-store for MySQL, etc.
 
  Re-name `lib/data-store.js` to `lib/<databasename>-store.js`
 
@@ -34,7 +34,7 @@ The devDependencies attribute and peerDependencies attributes are already comple
  npm install
  ```
 
- ###Run tests
+###Run tests
 
  ``` *.bash
  npm test
