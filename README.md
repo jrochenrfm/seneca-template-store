@@ -18,15 +18,11 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of tedium
 
 Fill in the package.json file with your project information:
 
--name
-
--version
-
--description
-
--main
-
--scripts
+- name
+- version
+- description
+- main
+- scripts
 
 
 The main and script attributes are required so that the test framework will run.
