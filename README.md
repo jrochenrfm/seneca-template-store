@@ -36,13 +36,13 @@ The main attribute is required so that the test framework will run.
 The devDependencies attribute and peerDependencies attributes are already completed so you can just run:
 
  ``` *.bash
- npm install
+ $ npm install
  ```
 
 ###Run tests
 
  ``` *.bash
- npm test
+ $ npm test
  ```
 
  The test module uses the [seneca store test](https://github.com/rjrodger/seneca-store-test). The test module is set-up so you can easily add extra tests for your specific datastore.
