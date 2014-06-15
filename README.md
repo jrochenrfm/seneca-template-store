@@ -50,7 +50,8 @@ The devDependencies attribute and peerDependencies attributes are already comple
 
  ###Utility functions
 
-The underlying database needs to have a name for the table or collection associated with the database. The convention is to join the base and name with an underscore, '_'
+The underlying database needs to have a name for the table or collection associated with the database. The convention is to join the base and name with an underscore, '_'.
+
 The createCollectionName function takes a seneca entity and creates the underlying database table or collection name.
 
 ``` javascript
