@@ -44,7 +44,7 @@ The devDependencies attribute and peerDependencies attributes are already comple
  npm test
  ```
 
- The test script uses the [seneca store test](https://github.com/rjrodger/seneca-store-test). The test module is set-up so you can easily add extra tests for your specific datastore.
+ The test module uses the [seneca store test](https://github.com/rjrodger/seneca-store-test). The test module is set-up so you can easily add extra tests for your specific datastore.
 
  The tests will fail but you are ready to start implementing your datastore plug-in.
 
