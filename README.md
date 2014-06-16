@@ -1,6 +1,6 @@
 #seneca-template-store
 
-Creating a new seneca datastore plug-in from scratch can involve a lot of tedium and overhead.The purpose of this project is to provide a template which can be easily modified to create your own datastore plug-in project with minimal effort.
+Creating a new seneca datastore plug-in from scratch can involve a lot of overhead. The purpose of this project is to provide a template which can be easily modified to create your own datastore plug-in project with minimal effort.
 
 ###Set-up
 
@@ -45,7 +45,7 @@ The devDependencies attribute and peerDependencies attributes are already comple
  $ npm test
  ```
 
- The test module uses the [seneca store test](https://github.com/rjrodger/seneca-store-test). The test module is set-up so you can easily add extra tests for your specific datastore.
+ The test module uses the [seneca store test](https://github.com/rjrodger/seneca-store-test) module. The test module is set-up so you can easily add extra tests for your specific datastore.
 
  The tests will fail but you are ready to start implementing the [datastore interface](https://github.com/rjrodger/seneca-mongo-store#usage).
 
