@@ -15,6 +15,21 @@ Creating a new seneca datastore plug-in from scratch can involve a lot of overhe
 
  `lib/data-store.js` to `lib/<databasename>-store.js`
 
+Enter the store name within the plug-in module
+
+``` javascript
+// Enter the name of the datastore.
+// This will be the name registered with seneca.
+var name = '<databasename>-store';
+```
+to
+
+``` javascript
+// Enter the name of the datastore.
+// This will be the name registered with seneca.
+var name = '';
+
+
  Re-name the test module:
 
  `test/data-store.test.js` to `test/<databasename>-store.test.js`
