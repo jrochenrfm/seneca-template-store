@@ -20,15 +20,16 @@ Enter the store name within the plug-in module
 ``` javascript
 // Enter the name of the datastore.
 // This will be the name registered with seneca.
-var name = '<databasename>-store';
+var name = '';
 ```
+
 to
 
 ``` javascript
 // Enter the name of the datastore.
 // This will be the name registered with seneca.
-var name = '';
-
+var name = '<databasename>-store';
+```
 
  Re-name the test module:
 
